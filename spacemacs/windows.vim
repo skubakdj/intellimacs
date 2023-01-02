@@ -15,9 +15,9 @@ nnoremap <leader>ws    :action SplitHorizontally<CR>
 vnoremap <leader>ws    <Esc>:action SplitHorizontally<CR>
 
 " Close window
-let g:WhichKeyDesc_Windows_DeleteWindow = "<leader>wd delete-window"
-nnoremap <leader>wd    :action CloseAllEditors<CR>
-vnoremap <leader>wd    <Esc>:action CloseAllEditors<CR>
+" let g:WhichKeyDesc_Windows_DeleteWindow = "<leader>wd delete-window"
+" nnoremap <leader>wd    :action CloseAllEditors<CR>
+" vnoremap <leader>wd    <Esc>:action CloseAllEditors<CR>
 let g:WhichKeyDesc_Windows_DeleteWindowX = "<leader>wx delete-window"
 nnoremap <leader>wx    :action CloseAllEditors<CR>
 vnoremap <leader>wx    <Esc>:action CloseAllEditors<CR>

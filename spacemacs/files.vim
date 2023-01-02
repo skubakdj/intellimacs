@@ -43,9 +43,9 @@ nnoremap <leader>fS    :action SaveAll<CR>
 vnoremap <leader>fS    :action SaveAll<CR>
 
 " Save single file (I think that Intellij autosaves anything by default anyway)
-let g:WhichKeyDesc_Files_Save = "<leader>fs save"
-nnoremap <leader>fs    :action SaveDocument<CR>
-vnoremap <leader>fs    :action SaveDocument<CR>
+" let g:WhichKeyDesc_Files_Save = "<leader>fs save"
+" nnoremap <leader>fs    :action SaveDocument<CR>
+" vnoremap <leader>fs    :action SaveDocument<CR>
 
 " Focus on project window.
 " Sadly when you are inside the project window this key binding does not work
